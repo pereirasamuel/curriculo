@@ -1,0 +1,283 @@
+# Site
+repository: pereirasamuel/resume
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Samuel Gonçalves Pereira
+title: Líder Técnico | Engenheiro DevSecOps Sênior
+email: samuel@sgoncalves.tec.br
+website: sgoncalves.tec.br
+website_title: Website
+pdf: https://github.com/pereirasamuel/resume/blob/d470d1c67f3d13db1797d1bfaad7fbdaf241142f/assets/Resume.pdf
+pdf_title: PDF Download
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username: o_sgoncalves
+github_username:  pereirasamuel
+gitlab_username: o_sgoncalves
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: o_sgoncalves
+linkedin_username: samuelgoncalvespereira
+# xing_username: jekyll
+# pinterest_username: jekyll
+youtube_username: samuelgoncalves
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: Resume PDF
+  icon:  (fab fa-pdf) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  url: https://github.com/pereirasamuel/resume/blob/main/assets/Resume.pdf
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: Sobre Mim
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Com mais de 10 anos de experiência em TI, sou impulsionado por uma paixão em conectar tecnologia e pessoas. Acredito que a verdadeira inovação ocorre quando utilizamos a tecnologia para melhorar vidas e criar conexões significativas.
+  Como Líder Técnico, sou responsável por gerenciar projetos de consultoria para clientes externos, liderar a equipe técnica e prepará-los para novos desafios.
+  Possuo ampla experiência em Kubernetes, Docker, AWS, GCP, e ferramentas de DevOps e DevSecOps, como Jenkins, Rundeck, Ansible, Git, Gitlab, Sonarqube, Horusec, OWASP ZAP, Dependency Check, entre outras.
+  Sou um profissional certificado LPIC-1 em Administração de Sistemas Linux. Tenho um profundo conhecimento em Monitoramento de Rede com Zabbix, Prometheus e Grafana, além de experiência com FreeIPA e Zimbra.
+  Sou responsável pelo desenvolvimento de soluções de IoT e tenho vasta experiência em palestras sobre o assunto.
+  Além da tecnologia, sou músico, escritor de contos e tenho mais de 6000 alunos em todo o mundo. Minhas conexões são meu maior tesouro. Vamos nos conectar e explorar como posso agregar valor ao seu projeto ou empresa!
+
+content:
+  - title: Experiência # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: 4Linux
+        link: 4linux.com.br
+        # link_text: boringcompany.com
+        sub_title: Líder Técnico
+        caption: Setembro 2022 - Presente
+        description: | # this will include new lines to allow paragraphs
+          Responsável por gerenciar projetos de consultoria para clientes externos, liderar a equipe técnica e prepará-la para novos projetos e conquistas.
+          Trabalhando com as seguintes tecnologias:
+            - Kubernetes
+            - Docker
+            - AWS
+            - GCP
+            - Ferramentas DevOps (Jenkins, Rundeck, Ansible, Git, Gitlab...)
+            - Ferramentas DevSecOps (Sonarqube, Horusec, OWASP ZAP, Dependency Check, Ansible Hardening, Open Scap...)
+            - Zabbix, Grafana, Prometheus
+            - FreeIPA
+            - Zimbra
+      - layout: top-middle
+        title: 4Linux
+        link: 4linux.com.br
+        # link_text: boringcompany.com
+        sub_title: Consultor de TI
+        caption: Março 2021 - Setembro 2022
+        description: | # this will include new lines to allow paragraphs
+          Consultor de TI nas áreas de Segurança Ofensiva e DevSecOps.
+          Atuando como instrutor de cursos de DevSecOps utilizando ferramentas de código aberto para realizar SAST e DAST, como Sonarqube e OWASP ZAP integrados ao Jenkins, Conformidade de Segurança com OpenScap, Ansible Hardening, Ansible-Vault e AWX, Avaliação de Segurança em ambientes Docker com Clair e Docker Bench for Security, entre outros.
+          Co-responsável pelo desenvolvimento de infraestrutura on-premises e em nuvem como código, utilizando ferramentas de automação como Ansible e Puppet, provisionando ambientes automatizados usando Rundeck. Avaliação e consultoria para ambientes de firewall com pfSense e Avaliação de Segurança e Vulnerabilidade      
+      - layout: top-middle
+        title: Faculdade SENAI FATESG
+        link: https://senaigoias.com.br/faculdade-fatesg
+        # link_text: boringcompany.com
+        sub_title: Professor
+        caption: Setembro 2021 - Present
+        description: | # this will include new lines to allow paragraphs
+          Especialista em DevOps e Computação em Nuvem, liderei aulas práticas e teóricas em DevSecOps, Observabilidade e Infraestrutura como Código. Com uma abordagem prática, preparei profissionais para os desafios tecnológicos atuais, utilizando as principais ferramentas do setor.
+          Habilidades e Tecnologias:
+          - DevSecOps: SonarQube, Jenkins, GitlabCI, OpenVAS, Owasp ZAP
+          - Observabilidade: ElasticSearch, Graylog, Grafana, Kibana, Zabbix
+          - Infraestrutura: Ansible, Terraform, Linux
+          - Nuvem: Amazon Web Services
+          - Sistemas Linux, RunDeck
+      - layout: top-middle
+        title: Udemy
+        link: https://www.udemy.com/
+        # link_text: boringcompany.com
+        sub_title: Instrutor
+        caption: Maio 2020 - Presente
+        description: | # this will include new lines to allow paragraphs
+          Com uma paixão por compartilhar conhecimento e impulsionar as carreiras dos meus alunos, atuo como instrutor na Udemy em dois cursos fundamentais:
+          Segurança de Aplicações Web: Neste curso, aprofundamo-nos nas tecnologias de pentest na Web, capacitando os alunos a identificar e mitigar vulnerabilidades, garantindo aplicações mais seguras e robustas.
+          Revisão de Certificação de Linux Essentials: Aqui, guio os alunos através dos conceitos básicos do Linux, revisando meticulosamente cada tópico da certificação. Ideal para aqueles que buscam solidificar seu conhecimento e obter a certificação com confiança.
+          Habilidades e Tecnologias:
+          - Testes de Penetração Web
+          - Análise de Vulnerabilidades
+          - Fundamentos do Linux
+          - Preparação para Certificação
+          - Segurança de Aplicações
+      - layout: top-middle
+        title: Indra
+        link: https://www.indracompany.com/pt-br/
+        sub_title: Engenheiro de Sistemas Sênior
+        caption: Novembro 2020 - Março 2021
+        description: | # this will include new lines to allow paragraphs
+          Encabecei a gestão de toda a paisagem de servidores Linux, fornecendo suporte fundamental à equipe de desenvolvimento de software, integrando práticas DevOps dentro de um pipeline de desenvolvimento da Web. Liderei a abordagem 'Infraestrutura como Código' e assumi a liderança na implantação de sistemas de monitoramento e segurança usando ferramentas como Zabbix, Grafana e Splunk.
+          Principais Ferramentas e Tecnologias:
+          - Zabbix
+          - Grafana
+          - Elasticsearch
+          - Splunk
+          - Alienvault OTX
+          - Ansible
+          - ShellScript
+          - Nginx
+          - Apache HTTPD
+          - ModSecurity
+      - layout: top-middle
+        title: SSA - São Salvador Alimentos
+        link: https://ssa-br.com/
+        sub_title: Analista de Redes
+        caption: Novembro 2017 - Novembro 2020
+        description: | # this will include new lines to allow paragraphs
+          Com formação em Sistemas de Informação pela Universidade Estadual de Goiás e especialização em Linux, desempenhei um papel fundamental na transformação tecnológica e otimização na SSA. Liderando a criação de três data centers e gerenciando a rede de 14 filiais em todo o Brasil, não fui apenas o pilar técnico da empresa, mas também a principal referência para todos os profissionais de Tecnologia. Meu compromisso com a excelência me levou a ensinar e promover a transferência de conhecimento, solidificando a capacidade técnica da equipe.
+          Habilidades e Tecnologias:
+          - Mikrotik (MTCNA, MTCRE, MTCTCE)
+          - pfsense
+          - Xen Server
+          - VMWare
+          - Dell Storage
+          - Backup com Bacula
+          - Zimbra
+          - Zabbix
+          - IoT e Software Livre
+      - layout: top-middle
+        title: SSA - São Salvador Alimentos
+        link: https://ssa-br.com/
+        sub_title: Analista de Suporte
+        caption: Março 2015 - Novembro 2017
+        description: | # this will include new lines to allow paragraphs
+          Atuei como figura-chave na garantia da continuidade e eficiência dos sistemas e processos tecnológicos da empresa. Responsável pelo diagnóstico e resolução de problemas técnicos, forneci suporte contínuo ao usuário, otimizei o desempenho do sistema e garanti a integridade e segurança dos dados. Minha função foi essencial para manter a operação da empresa funcionando de forma eficaz e alinhada com as melhores práticas de TI.
+          Habilidades e Tecnologias:
+          - Diagnóstico e resolução de problemas
+          - Suporte ao usuário
+          - Otimização do sistema
+          - Segurança de dados
+      - layout: top-middle
+        title: Educandário Evangélico
+        link: https://educandarioev.com.br/
+        sub_title: Técnico em Informática
+        caption: Agosto 2014 - Maio 2015
+        description: | # this will include new lines to allow paragraphs
+          Desempenhei um papel fundamental na manutenção e inovação da infraestrutura tecnológica da instituição. Fui responsável pelo desenvolvimento do site institucional, implementação de sistemas de gestão, configuração e administração do Active Directory e sistemas Linux. Além disso, trabalhei na edição de mídia, gerenciamento de rede e forneci suporte contínuo ao usuário, garantindo a eficiência e segurança dos processos e sistemas.
+          Habilidades e Tecnologias:
+          - Desenvolvimento de sites institucionais
+          - Implementação de sistemas de gestão
+          - Active Directory
+          - Sistemas Linux
+          - Edição de mídia
+          - Gerenciamento de rede
+          - Suporte ao usuário       
+      - layout: top-middle
+        title: Prefeitura de Itaberai
+        link: https://itaberai.go.gov.br/
+        sub_title: Técnico em Informática
+        caption: Abril 2014 - Agosto 2014 
+        description: | # this will include new lines to allow paragraphs
+          Atuei como figura central na manutenção e otimização da infraestrutura tecnológica da cidade. Dediquei-me à gestão de sistemas de saúde pública, garantindo a eficiência e segurança dos dados e processos. Responsável pela configuração, instalação e manutenção de computadores, redes e software, também desempenhei um papel crucial no suporte ao usuário e gerenciamento de rede. Com uma abordagem proativa, resolvi problemas, fornecei suporte técnico e contribuí significativamente para a modernização tecnológica do setor público.
+          Habilidades e Tecnologias:
+          - Gestão de sistemas de saúde pública
+          - Montagem e manutenção de computadores
+          - Instalação e configuração de redes
+          - Suporte técnico e solução de problemas
+          - Suporte ao usuário
+          - Programação e manutenção de software
+          - Recuperação e backup de dados
+          - Desenvolvimento e gestão de sistemas
+      - layout: top-middle
+        title: Diocese de Goiás
+        link: https://www.diocesedegoias.org.br/
+        sub_title: Técnico em Informática
+        caption: Fevereiro 2014 - Abril 2014 
+        description: | # this will include new lines to allow paragraphs
+          Atuei como figura central na manutenção e otimização da infraestrutura tecnológica da Diocese. Responsável pela configuração, instalação e manutenção de computadores, redes e software, garanti a eficiência e segurança dos sistemas. Com uma abordagem proativa, forneci suporte técnico, resolvi problemas e contribuí para o contínuo avanço tecnológico da organização.
+          Habilidades e Tecnologias:
+          - Montagem e manutenção de computadores
+          - Instalação e configuração de redes
+          - Suporte técnico e solução de problemas
+          - Programação e manutenção de software
+          - Recuperação e backup de dados
+      - layout: top-middle
+        title: Instituto de Educação Aliança
+        sub_title: Bibliotecário
+        caption: April 2013 - February 2014
+        description: | # this will include new lines to allow paragraphs
+          Como bibliotecário(a) no IEA, especializei-me na organização, preservação e gestão de coleções bibliográficas. Fui responsável por facilitar o acesso à informação, promover a disseminação do conhecimento e incentivar a leitura. Minha função envolvia a curadoria de materiais, catalogação e serviço público, garantindo que a informação estivesse acessível a todos.
+      - layout: top-middle
+        title: Instituto de Educação Aliança
+        sub_title: Estagiário de Informática
+        caption: February 2010 - December 2012  
+        description: | # this will include new lines to allow paragraphs
+          Durante meu estágio no IEA, tive a oportunidade de aprofundar-me em ambientes técnicos que abrangiam tanto servidores Linux quanto Windows. Desempenhei um papel ativo na administração de rede, com foco na gestão do Active Directory (AD) e na implementação de políticas de segurança por meio do Firewall utilizando iptables. Essa experiência me proporcionou uma visão abrangente da infraestrutura de TI, permitindo-me aprimorar habilidades essenciais em manutenção e otimização de sistemas e redes.
+          Habilidades e Tecnologias:
+          - Administração de Servidores Linux
+          - Administração de Servidores Windows
+          - Administração de Rede
+          - Gestão do Active Directory (AD)
+          - Segurança de Firewall com iptables                      
+
+  - title: Formação Acadêmica # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Universidade Estadual de Goiás
+        caption: 2012 - 2017
+        sub_title: Bachelor's Degree Information Systems
+        description: | # this will include new lines to allow paragraphs
+          Com a evolução da Tecnologia de Informação (TI), percebe-se que significativa parcela de bens e serviços de informática são produzidos por empresas especializadas (fabricas de software e operadoras de serviços de infra-estrutura de TI), enquanto que, nas empresas usuárias focaliza-se a gestão dos recursos de informação (planejamento e integração, aquisição, disponibilização e operação de sistemas).
+      - layout: top-middle
+        title: Faculdade SENAI FATESG
+        caption: 2018 - 2020
+        sub_title: Master of Business Administration - MBA, Information Technology
+        description: | # this will include new lines to allow paragraphs
+          O MBA em Data Science e IoT trabalha as habilidades e competências para especificar, desenvolver e integrar os sistemas embarcados, web e mobile utilizando protocolos de comunicação e Cloud Computing; bem como, analisar e gerar informações úteis ao negócio utilizando técnicas de Data Science e BI para posteriormente auxiliar as tomadas de decisão das empresas, minimizando custos e melhorando processos organizacionais de modo sustentável.
+  - title: Certificações
+    layout: text # Type of content section (list/text)
+    content: |
+      - **LPIC-1**
+      *Linux Professional Institute*
+      [Certificate](https://cs.lpi.org/caf/Xamman/candidate_area/certificate/LPIC-1/fsl2bflzuq)
+      - **Ubiquiti Enterprise Wirelles Administration**
+      *Ubiquiti Inc.*
+      [Certificate](https://training.ubnt.com/mod/certificate/view.php?id=938&action=get)
+      - **MTCRE: MikroTik Certified Routing Engineer**
+      *MikroTik*
+      [Certificate](https://mikrotik.com/training/certificates/b119779c91692f378aab)
+      - **MTCNA: MikroTik Certified Network Associate**
+      *MikroTik*
+      [Certificate](https://mikrotik.com/training/certificates/b119779c91692f378aab)
+      - **MTCTCE (MikroTik Certified Traffic Control Engineer)"**
+      *MikroTik*
+      [Certificate](https://mikrotik.com/training/certificates/b151967c813dc71b4c60) 
+
+  - title: Um pouco mais sobre mim
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Find out more about my work by following my content:
+      - [Meus cursos na Udemy](https://beacons.ai/sgoncalves)
+      - [Meu podcast](https://open.spotify.com/show/7IaegEiXEBrLHRnoFQ3A7k?si=v-tpkcZXR3u2BfYzq7cQ2w&dl_branch=1&nd=1)
+      - [Meu canal no YouTube](https://youtube.com/samuelgoncalves)      
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
